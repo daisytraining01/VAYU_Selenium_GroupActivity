@@ -4,7 +4,7 @@ Feature: Title of your feature
   Background: 
   Given User opens the browser
 
-  @tag1
+  @Regression, @Excel
   Scenario: New user registration
     Given navigates to the RegisterPage
     When User enters valid data from excel

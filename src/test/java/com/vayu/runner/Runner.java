@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		// Location of the feature file folder
-		features = { "classpath:feature/FeatureFile3.feature" },
+		features = { "classpath:feature/FeatureFile2.feature" },
 		// Where my definition is written
 		glue = { "classpath:com.vayu.stepdefination", "classpath:com.vayu.action", "com.vayu.afterhooks" },
 		// Which tag needs to be executed

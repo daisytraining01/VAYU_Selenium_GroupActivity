@@ -4,14 +4,14 @@ Feature: Title of your feature
   Background: 
   Given User opens the browser
 
-  @tag1
+  @Regression
   Scenario: New user registration
     Given navigates to the RegisterPage
     When User enters valid data
     Then User is successfully logged into the system
     And User successfully logout from the application
 
-  @tag2
+  @Regression, @Login
   Scenario Outline: Login with valid Credentials
     Given navigates to the LoginPage
     When User enters "<username>" and "<password>"

@@ -1,14 +1,14 @@
 @All
 Feature: Title of your feature
 
-  @tag1
+   @smokeTest
   Scenario: New user registration
     Given navigates to the RegisterPage
     When User enters valid data
     Then User is successfully logged into the system
     And User successfully logout from the application
 
-  @tag2
+  @Regression
   Scenario Outline: Login with valid Credentials
     Given navigates to the LoginPage
     When User enters "<username>" and "<password>"
